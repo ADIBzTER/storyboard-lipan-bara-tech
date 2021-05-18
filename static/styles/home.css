@@ -1,0 +1,28 @@
+body {
+  background-color: #e8f1f8;
+  color: #535353;
+}
+
+.appBar {
+  background-color: #dbe3e9;
+  height: 50px;
+}
+
+.appBar #logout {
+  background-color: #fa8484;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  float: right;
+  margin: 10px 40px 0 0;
+  padding: 3px 8px 3px 8px;
+}
+
+.appBar #logout:hover {
+  background-color: #f33636;
+}
+
+.appBar #logout:focus {
+  outline: none;
+}
+/*# sourceMappingURL=home.css.map */

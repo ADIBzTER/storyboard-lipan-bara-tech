@@ -1,0 +1,52 @@
+body {
+  background-color: #e8f1f8;
+  color: #535353;
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
+
+.top {
+  height: 20vh;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px auto;
+      grid-template-columns: 500px auto;
+}
+
+.grid #title {
+  margin: 30% 0 0 100px;
+}
+
+#outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+#inner {
+  background-color: white;
+  border-radius: 25px;
+  padding: 60px 50px 60px 50px;
+}
+
+@media (max-width: 850px) {
+  .top {
+    height: 5vh;
+  }
+  .grid {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .grid #title {
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

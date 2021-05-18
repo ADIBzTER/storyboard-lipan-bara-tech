@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(232, 241, 248);
+  color: rgb(83, 83, 83);
+}
+
+.appBar {
+  background-color: rgb(219, 227, 233);
+  height: 50px;
+
+  #logout {
+    background-color: rgb(250, 132, 132);
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    float: right;
+    margin: 10px 40px 0 0;
+    padding: 3px 8px 3px 8px;
+
+    &:hover {
+      background-color: rgb(243, 54, 54);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
