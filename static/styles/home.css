@@ -13,7 +13,7 @@ body {
   top: 0;
   display: -ms-grid;
   display: grid;
-  height: 100px;
+  height: 80px;
   width: 100%;
   padding: 0 10px;
   background-color: #457b9d;
